@@ -8,8 +8,19 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@class BuyRentController;
 
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    BuyRentController           *buyRent;
+    NSMutableArray              *windows;
+}
+
+@property (weak) IBOutlet NSButton *aboutHomesButton;
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSView *mainWindowView;
+
+- (IBAction)buyRentClick:(id)sender;
+- (IBAction)aboutClick:(id)sender;
 
 @end

@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3439651C1662CCF50018A0F5 /* icon_512x512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3439651B1662CCF50018A0F5 /* icon_512x512.icns */; };
+		3439651F1662D52B0018A0F5 /* btn-calculate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3439651E1662D52B0018A0F5 /* btn-calculate.png */; };
+		343965241662D6EE0018A0F5 /* buyorrent_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = 343965231662D6EE0018A0F5 /* buyorrent_buy.png */; };
+		343965261662D90A0018A0F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343965251662D90A0018A0F5 /* QuartzCore.framework */; };
 		3456490F1661BC85009CDE12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3456490E1661BC85009CDE12 /* Cocoa.framework */; };
 		345649191661BC85009CDE12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 345649171661BC85009CDE12 /* InfoPlist.strings */; };
 		3456491B1661BC85009CDE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3456491A1661BC85009CDE12 /* main.m */; };
 		3456491F1661BC85009CDE12 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3456491D1661BC85009CDE12 /* Credits.rtf */; };
 		345649221661BC85009CDE12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345649211661BC85009CDE12 /* AppDelegate.m */; };
 		345649251661BC85009CDE12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345649231661BC85009CDE12 /* MainMenu.xib */; };
+		3456493B1661C7DA009CDE12 /* btn-buy-rent-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649301661C7DA009CDE12 /* btn-buy-rent-hover.png */; };
+		3456493C1661C7DA009CDE12 /* btn-buy-rent.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649311661C7DA009CDE12 /* btn-buy-rent.png */; };
+		3456493D1661C7DA009CDE12 /* btn-debt-income-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649321661C7DA009CDE12 /* btn-debt-income-hover.png */; };
+		3456493E1661C7DA009CDE12 /* btn-debt-income.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649331661C7DA009CDE12 /* btn-debt-income.png */; };
+		3456493F1661C7DA009CDE12 /* btn-monthly-payment-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649341661C7DA009CDE12 /* btn-monthly-payment-hover.png */; };
+		345649401661C7DA009CDE12 /* btn-monthly-payment.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649351661C7DA009CDE12 /* btn-monthly-payment.png */; };
+		345649411661C7DA009CDE12 /* btn-prequal-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649361661C7DA009CDE12 /* btn-prequal-hover.png */; };
+		345649421661C7DA009CDE12 /* btn-prequal.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649371661C7DA009CDE12 /* btn-prequal.png */; };
+		345649431661C7DA009CDE12 /* btn-refinance-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649381661C7DA009CDE12 /* btn-refinance-hover.png */; };
+		345649441661C7DA009CDE12 /* btn-refinance.png in Resources */ = {isa = PBXBuildFile; fileRef = 345649391661C7DA009CDE12 /* btn-refinance.png */; };
+		345649451661C7DA009CDE12 /* main_menu_bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3456493A1661C7DA009CDE12 /* main_menu_bk.jpg */; };
+		345649491661CD70009CDE12 /* buy-rent-bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345649471661CD70009CDE12 /* buy-rent-bk.jpg */; };
+		3456494A1661CD70009CDE12 /* item-bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345649481661CD70009CDE12 /* item-bk.jpg */; };
+		345649501661CFF5009CDE12 /* BuyRentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3456494E1661CFF5009CDE12 /* BuyRentController.m */; };
+		345649511661CFF5009CDE12 /* BuyRentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3456494F1661CFF5009CDE12 /* BuyRentController.xib */; };
+		345649601661D52C009CDE12 /* WebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3456495E1661D52C009CDE12 /* WebViewVC.m */; };
+		345649611661D52C009CDE12 /* WebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3456495F1661D52C009CDE12 /* WebViewVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3439651B1662CCF50018A0F5 /* icon_512x512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon_512x512.icns; sourceTree = "<group>"; };
+		3439651E1662D52B0018A0F5 /* btn-calculate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-calculate.png"; sourceTree = "<group>"; };
+		343965231662D6EE0018A0F5 /* buyorrent_buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyorrent_buy.png; sourceTree = "<group>"; };
+		343965251662D90A0018A0F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3456490A1661BC85009CDE12 /* Mortgage Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mortgage Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3456490E1661BC85009CDE12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		345649111661BC85009CDE12 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +54,25 @@
 		345649201661BC85009CDE12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		345649211661BC85009CDE12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		345649241661BC85009CDE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		345649301661C7DA009CDE12 /* btn-buy-rent-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-buy-rent-hover.png"; sourceTree = "<group>"; };
+		345649311661C7DA009CDE12 /* btn-buy-rent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-buy-rent.png"; sourceTree = "<group>"; };
+		345649321661C7DA009CDE12 /* btn-debt-income-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-debt-income-hover.png"; sourceTree = "<group>"; };
+		345649331661C7DA009CDE12 /* btn-debt-income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-debt-income.png"; sourceTree = "<group>"; };
+		345649341661C7DA009CDE12 /* btn-monthly-payment-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-monthly-payment-hover.png"; sourceTree = "<group>"; };
+		345649351661C7DA009CDE12 /* btn-monthly-payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-monthly-payment.png"; sourceTree = "<group>"; };
+		345649361661C7DA009CDE12 /* btn-prequal-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-prequal-hover.png"; sourceTree = "<group>"; };
+		345649371661C7DA009CDE12 /* btn-prequal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-prequal.png"; sourceTree = "<group>"; };
+		345649381661C7DA009CDE12 /* btn-refinance-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-refinance-hover.png"; sourceTree = "<group>"; };
+		345649391661C7DA009CDE12 /* btn-refinance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-refinance.png"; sourceTree = "<group>"; };
+		3456493A1661C7DA009CDE12 /* main_menu_bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_menu_bk.jpg; sourceTree = "<group>"; };
+		345649471661CD70009CDE12 /* buy-rent-bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buy-rent-bk.jpg"; sourceTree = "<group>"; };
+		345649481661CD70009CDE12 /* item-bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "item-bk.jpg"; sourceTree = "<group>"; };
+		3456494D1661CFF5009CDE12 /* BuyRentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyRentController.h; sourceTree = "<group>"; };
+		3456494E1661CFF5009CDE12 /* BuyRentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyRentController.m; sourceTree = "<group>"; };
+		3456494F1661CFF5009CDE12 /* BuyRentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyRentController.xib; sourceTree = "<group>"; };
+		3456495D1661D52C009CDE12 /* WebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewVC.h; sourceTree = "<group>"; };
+		3456495E1661D52C009CDE12 /* WebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewVC.m; sourceTree = "<group>"; };
+		3456495F1661D52C009CDE12 /* WebViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343965261662D90A0018A0F5 /* QuartzCore.framework in Frameworks */,
 				3456490F1661BC85009CDE12 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +91,7 @@
 		345648FF1661BC85009CDE12 = {
 			isa = PBXGroup;
 			children = (
+				343965251662D90A0018A0F5 /* QuartzCore.framework */,
 				345649141661BC85009CDE12 /* Mortgage Calculator */,
 				3456490D1661BC85009CDE12 /* Frameworks */,
 				3456490B1661BC85009CDE12 /* Products */,
@@ -82,9 +128,12 @@
 		345649141661BC85009CDE12 /* Mortgage Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				3456492F1661C7DA009CDE12 /* Assets */,
 				345649201661BC85009CDE12 /* AppDelegate.h */,
 				345649211661BC85009CDE12 /* AppDelegate.m */,
 				345649231661BC85009CDE12 /* MainMenu.xib */,
+				345649621661D530009CDE12 /* Web View Controller */,
+				345649521661D046009CDE12 /* Buy or Rent */,
 				345649151661BC85009CDE12 /* Supporting Files */,
 			);
 			path = "Mortgage Calculator";
@@ -100,6 +149,49 @@
 				3456491D1661BC85009CDE12 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3456492F1661C7DA009CDE12 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				343965231662D6EE0018A0F5 /* buyorrent_buy.png */,
+				3439651E1662D52B0018A0F5 /* btn-calculate.png */,
+				3439651B1662CCF50018A0F5 /* icon_512x512.icns */,
+				345649471661CD70009CDE12 /* buy-rent-bk.jpg */,
+				345649481661CD70009CDE12 /* item-bk.jpg */,
+				345649301661C7DA009CDE12 /* btn-buy-rent-hover.png */,
+				345649311661C7DA009CDE12 /* btn-buy-rent.png */,
+				345649321661C7DA009CDE12 /* btn-debt-income-hover.png */,
+				345649331661C7DA009CDE12 /* btn-debt-income.png */,
+				345649341661C7DA009CDE12 /* btn-monthly-payment-hover.png */,
+				345649351661C7DA009CDE12 /* btn-monthly-payment.png */,
+				345649361661C7DA009CDE12 /* btn-prequal-hover.png */,
+				345649371661C7DA009CDE12 /* btn-prequal.png */,
+				345649381661C7DA009CDE12 /* btn-refinance-hover.png */,
+				345649391661C7DA009CDE12 /* btn-refinance.png */,
+				3456493A1661C7DA009CDE12 /* main_menu_bk.jpg */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		345649521661D046009CDE12 /* Buy or Rent */ = {
+			isa = PBXGroup;
+			children = (
+				3456494D1661CFF5009CDE12 /* BuyRentController.h */,
+				3456494E1661CFF5009CDE12 /* BuyRentController.m */,
+				3456494F1661CFF5009CDE12 /* BuyRentController.xib */,
+			);
+			name = "Buy or Rent";
+			sourceTree = "<group>";
+		};
+		345649621661D530009CDE12 /* Web View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3456495D1661D52C009CDE12 /* WebViewVC.h */,
+				3456495E1661D52C009CDE12 /* WebViewVC.m */,
+				3456495F1661D52C009CDE12 /* WebViewVC.xib */,
+			);
+			name = "Web View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +248,24 @@
 				345649191661BC85009CDE12 /* InfoPlist.strings in Resources */,
 				3456491F1661BC85009CDE12 /* Credits.rtf in Resources */,
 				345649251661BC85009CDE12 /* MainMenu.xib in Resources */,
+				3456493B1661C7DA009CDE12 /* btn-buy-rent-hover.png in Resources */,
+				3456493C1661C7DA009CDE12 /* btn-buy-rent.png in Resources */,
+				3456493D1661C7DA009CDE12 /* btn-debt-income-hover.png in Resources */,
+				3456493E1661C7DA009CDE12 /* btn-debt-income.png in Resources */,
+				3456493F1661C7DA009CDE12 /* btn-monthly-payment-hover.png in Resources */,
+				345649401661C7DA009CDE12 /* btn-monthly-payment.png in Resources */,
+				345649411661C7DA009CDE12 /* btn-prequal-hover.png in Resources */,
+				345649421661C7DA009CDE12 /* btn-prequal.png in Resources */,
+				345649431661C7DA009CDE12 /* btn-refinance-hover.png in Resources */,
+				345649441661C7DA009CDE12 /* btn-refinance.png in Resources */,
+				345649451661C7DA009CDE12 /* main_menu_bk.jpg in Resources */,
+				345649491661CD70009CDE12 /* buy-rent-bk.jpg in Resources */,
+				3456494A1661CD70009CDE12 /* item-bk.jpg in Resources */,
+				345649511661CFF5009CDE12 /* BuyRentController.xib in Resources */,
+				345649611661D52C009CDE12 /* WebViewVC.xib in Resources */,
+				3439651C1662CCF50018A0F5 /* icon_512x512.icns in Resources */,
+				3439651F1662D52B0018A0F5 /* btn-calculate.png in Resources */,
+				343965241662D6EE0018A0F5 /* buyorrent_buy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +278,8 @@
 			files = (
 				3456491B1661BC85009CDE12 /* main.m in Sources */,
 				345649221661BC85009CDE12 /* AppDelegate.m in Sources */,
+				345649501661CFF5009CDE12 /* BuyRentController.m in Sources */,
+				345649601661D52C009CDE12 /* WebViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +409,7 @@
 				3456492A1661BC85009CDE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
